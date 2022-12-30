@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitörler</title>
+    <style>
+          
+            table{background-color:#9BA4B4;}      
+            #monitoryenılenmetablo{width:13%;float: left;}   
+            #markalartablo{width: 13%;float: left;}
+            #monitortepkisüresi{width: 13%;}
+            #ilksıramonıtor {
+                position: relative;
+            }
+            #monitor1{
+            width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #ilkmonıtor{
+            position: absolute; 
+            top: 430px; 
+            left: 380px;
+            color:#323232;
+            }
+            #ilkmonitorfiyat{
+                position: absolute; 
+            top: 445px; 
+            left: 440px;
+            color:orange;
+            font-size: 20px;
+            
+            }
+            #monitor2{
+            width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #ikincimonitor{
+                position: absolute; 
+            top: 430px; 
+            left: 750px;
+            color:#323232;
+            }
+            #ikincimonitorfiyat{
+                position: absolute; 
+            top: 445px; 
+            left: 810px;
+            color:orange;
+            font-size: 20px;
+            }
+            #monitor3{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #üçüncümonitor{
+                position: absolute; 
+            top: 435px; 
+            left: 1100px;
+            color:#323232;
+            }
+            #üçüncümonitorfiyat{
+                position: absolute; 
+            top: 450px; 
+            left: 1200px;
+            color:orange;
+            font-size: 20px;
+            }
+            #ikincisıramonıtor{
+                position: relative;
+            }
+            #monitor4{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+        
+            }
+            #dortmonitor{
+                position: absolute; 
+            top: 710px; 
+            left: 350px;
+            color:#323232;
+            }
+            #dortmonitorfiyat{
+                position: absolute; 
+            top: 730px; 
+            left: 425px;
+            color:orange;
+            font-size: 20px;
+            }
+            #monitor5{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #beşincimonitor{
+                position: absolute; 
+            top: 710px; 
+            left: 680px;
+            color:#323232;
+            }
+            #beşincimonitorfiyat{
+                position: absolute; 
+            top: 730px; 
+            left:815px;
+            color:orange;
+            font-size: 20px;
+            }
+            #monitor6{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #altımonitor{
+                position: absolute; 
+            top: 710px; 
+            left: 1100px;
+            color:#323232;
+            }
+            #altımonitorfiyat{
+                position: absolute; 
+            top: 730px; 
+            left:1170px;
+            color:orange;
+            font-size: 20px;
+            }
+            #üçüncüsıramonitor{
+                position: relative;
+            }
+            #monitor7{
+                width: 180px;height: 180px;
+            margin-left: 380px;
+            }
+            #yedimonitor{
+                position: absolute; 
+            top: 280px; 
+            left: 360px;
+            color:#323232;
+            }
+            #yedimonitorfiyat{
+                position: absolute; 
+            top: 305px; 
+            left:420px;
+            color:orange;
+            font-size: 20px;
+            }
+            #monitor8{
+                width: 180px;height: 180px;
+            margin-left: 200px;
+            }
+            #sekizincimonitor{
+                position: absolute; 
+            top: 280px; 
+            left: 730px;
+            color:#323232;
+            }
+            #sekizincimonitorfiyat{
+                position: absolute; 
+            top: 305px; 
+            left:800px;
+            color:orange;
+            font-size: 20px;
+            }
+            #monitor9{
+                width: 180px;height: 180px;
+            margin-left: 200px;
+            }
+            #dokuzuncumonitor{
+                position: absolute; 
+            top: 280px; 
+            left: 1090px;
+            color:#323232;
+            }
+            #dokuzuncumonitorfiyat{
+                position: absolute; 
+            top: 305px; 
+            left:1200px;
+            color:orange;
+            font-size: 20px;
+            }
+    </style>
+</head>
+<body>
+    <center><h1 style="background-color: black;height:100px;color: antiquewhite;font-size: 40px;padding-top: 25px; ">Monitörler</h1></center>
+
+<br><br>
+   
+   <div class="ilksıramonıtor">
+    <table border="1"cellpading="5"id="markalartablo">
+    <h3 >Markalar</h3>
+    <tr>
+        <td>
+
+    <li >
+        <label>
+            <input type="checkbox" :checked="false">
+            <span>AOC</span>
+        </label>
+    </li>
+    <li>
+        <label >
+            <input type="checkbox" :checked="false">
+            <span>Asus</span>
+        </label>
+    </li>
+    <li >
+        <label>
+            <input type="checkbox" :checked="false">
+            <span>Gamepower</span>
+        </label>
+    </li>
+    <li>
+        <label >
+            <input type="checkbox" :checked="false">
+            <span>Gigabyte</span>
+        </label>
+    </li>
+    <li>
+        <label >
+            <input type="checkbox" :checked="false">
+            <span>Msı</span>
+        </label>
+    </li>
+</td></tr>
+</table>
+<img src="monıtorler/Ekran görüntüsü 2022-12-16 205749.png"id="monitor1">
+<p id="ilkmonıtor">AOC CU34G2 34″ 1ms 100Hz</p>
+<p id="ilkmonitorfiyat"><b>9.249,43TL</b></p>
+<img src="monıtorler/msımonıtor1.png"id="monitor2">
+<p id="ikincimonitor">MSI Optix G27C7 27” 1ms 165Hz</p>
+<p id="ikincimonitorfiyat"><b>5.990,11 TL</b></p>
+<img src="monıtorler/asusmonıtor1.png"id="monitor3">
+<p id="üçüncümonitor">Asus TUF Gaming VG279Q1R 27″ 1ms 144Hz </p>
+<p id="üçüncümonitorfiyat"><b>5.909,07 TL</b></p>
+</div>
+<div class="ikincisıramonıtor">
+    <table border="1"cellpading="5"id="monitoryenılenmetablo">
+        <h3 >Yenilenme Hızı</h3>
+        <tr>
+        <td>
+        <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>360hz</span>
+            </label>
+         </li>
+
+         <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>280hz</span>
+            </label>
+         </li>
+
+         <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>240hz</span>
+            </label>
+         </li>
+
+         <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>165hz</span>
+            </label>
+         </li>
+
+         <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>144hz</span>
+            </label>
+         </li>
+
+         <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>60hz</span>
+            </label>
+         </li>
+         </td> </tr>
+    </table><br><br>
+    <img src="monıtorler/gigabyte.png"id="monitor4">
+    <p id="dortmonitor">Gigabyte Aorus FI32Q 31.5” 1ms 165Hz</p>
+    <p id="dortmonitorfiyat"><b>18.058,42 TL</b></p>
+    <img src="monıtorler/gamepower1.png"id="monitor5">
+    <p id="beşincimonitor">GamePower 23,6″ GPR24C1MS144 Curved 1ms 144Hz</p>
+    <p id="beşincimonitorfiyat"><b>3.215,28 TL</b></p>
+    <img src="monıtorler/msımonıtor2.png"id="monitor6">
+    <p id="altımonitor">MSI Optix MPG321QRF QD 32” 1ms 175Hz</p>
+    <p id="altımonitorfiyat"><b>19.555,94 TL</b></p>
+</div>
+<div id="üçüncüsıramonitor">
+    <table border="1"cellpading="5" id="monitortepkisüresi">
+        <h3>Tepki Süresi</h3>
+    <tr><td>
+        <li>
+     <label >
+        <input type="checkbox" :checked="false">
+        <span>3 ms - 5 ms</span>
+        </label>
+    </li>
+    <li>
+        <label >
+        <input type="checkbox" :checked="false">
+        <span>1 ms - 2 ms</span>
+            </label>
+     </li>
+    <li>
+     <label >
+     <input type="checkbox" :checked="false">
+        <span>1 ms altı</span>
+        </label>
+    </li>
+            </td> </tr>
+    </table>
+    <img src="monıtorler/gamepower2.png"id="monitor7">
+    <p id="yedimonitor">GamePower WQ35 35″ 1ms 180Hz</p>
+    <p id="yedimonitorfiyat"><b>9.205,39 TL</b></p>
+    <img src="monıtorler/asus2.png"id="monitor8">
+    <p id="sekizincimonitor">Asus VP228HE 21.5″ Full HD 1ms 60Hz</p>
+    <p id="sekizincimonitorfiyat"><b>2.422,47 TL</b></p>
+    <img src="monıtorler/msımonitor3.png"id="monitor9">
+    <p id="dokuzuncumonitor">MSI Optix G24C4 23.6” 1ms FreeSync Anti-Flicker 144Hz</p>
+    <p id="dokuzuncumonitorfiyat"><b>4.734,83 TL</b></p>
+</div>
+<br><br><br><br><br>
+<center><a href="anasayfa.html"><button>Ana Sayfaya Gidiş</button>  </a></center>
+</body>
+</html>

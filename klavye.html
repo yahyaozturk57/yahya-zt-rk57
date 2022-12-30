@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klavye</title>
+    <style>
+        
+        table{background-color:#9BA4B4;}      
+            #klavyebağlantı{width:13%;float: left;}   
+            #markalartablo{width: 13%;float: left;}
+            #dilivedizilimi{width: 13%;}
+            #ilksıraklavye {
+                position: relative;
+            }
+            #klavye1{
+            width: 170px;height: 170px;
+            margin-left: 190px;
+            }
+            #ilkklavye{
+            position: absolute; 
+            top: 435px; 
+            left: 350px;
+            color:#323232;
+            }
+            #ilkklavyefiyat{
+                position: absolute; 
+            top: 450px; 
+            left: 440px;
+            color:orange;
+            font-size: 20px;
+            
+            }
+            #klavye2{
+            width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #ikinciklavye{
+                position: absolute; 
+            top: 430px; 
+            left: 720px;
+            color:#323232;
+            }
+            #ikinciklavyefiyat{
+                position: absolute; 
+            top: 445px; 
+            left: 810px;
+            color:orange;
+            font-size: 20px;
+            }
+            #klavye3{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #üçüncüklavye{
+                position: absolute; 
+            top: 435px; 
+            left: 1100px;
+            color:#323232;
+            }
+            #üçüncüklavyefiyat{
+                position: absolute; 
+            top: 450px; 
+            left: 1200px;
+            color:orange;
+            font-size: 20px;
+            }
+            #ikincisıraklavye{
+                position: relative;
+            }
+            #klavye4{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+        
+            }
+            #dortklavye{
+                position: absolute; 
+            top: 680px; 
+            left: 365px;
+            color:#323232;
+            }
+            #dortklavye2{
+                position: absolute; 
+            top: 705px; 
+            left: 405px;
+            color:#323232;
+            }
+            #dortklavyefiyat{
+                position: absolute; 
+            top: 730px; 
+            left: 425px;
+            color:orange;
+            font-size: 20px;
+            }
+            #klavye5{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #beşinciklavye{
+                position: absolute; 
+            top: 680px; 
+            left: 690px;
+            color:#323232;
+            }
+            #beşinciklavyefiyat{
+                position: absolute; 
+            top: 710px; 
+            left:815px;
+            color:orange;
+            font-size: 20px;
+            }
+            #klavye6{
+                width: 180px;height: 180px;
+            margin-left: 190px;
+            }
+            #altıklavye{
+                position: absolute; 
+            top: 690px; 
+            left: 1100px;
+            color:#323232;
+            }
+            #altıklavyefiyat{
+                position: absolute; 
+            top: 730px; 
+            left:1190px;
+            color:orange;
+            font-size: 20px;
+            }
+            #üçüncüsıraklavye{
+                position: relative;
+            }
+            #klavye7{
+                width: 180px;height: 180px;
+            margin-left: 380px;
+            }
+            #yediklavye{
+                position: absolute; 
+            top: 280px; 
+            left: 320px;
+            color:#323232;
+            }
+            #yediklavyefiyat{
+                position: absolute; 
+            top: 305px; 
+            left:420px;
+            color:orange;
+            font-size: 20px;
+            }
+            #klavye8{
+                width: 180px;height: 180px;
+            margin-left: 200px;
+            }
+            #sekizinciklavye{
+                position: absolute; 
+            top: 270px; 
+            left: 730px;
+            color:#323232;
+            }
+            #sekizklavye2{
+                position: absolute; 
+            top: 290px; 
+            left: 780px;
+            color:#323232;
+            }
+            #sekizinciklavyefiyat{
+                position: absolute; 
+            top: 310px; 
+            left:800px;
+            color:orange;
+            font-size: 20px;
+            }
+            #klavye9{
+                width: 180px;height: 180px;
+            margin-left: 200px;
+            }
+            #dokuzuncuklavye{
+                position: absolute; 
+            top: 270px; 
+            left: 1130px;
+            color:#323232;
+            }
+            #dokuzklavye2{
+                position: absolute; 
+            top: 290px; 
+            left: 1150px;
+            color:#323232;
+            }
+            #dokuzuncuklavyefiyat{
+                position: absolute; 
+            top: 305px; 
+            left:1200px;
+            color:orange;
+            font-size: 20px;
+            }
+    </style>
+</head>
+<body>
+    <center><h1 style="background-color: black;height:100px;color: antiquewhite;font-size: 40px;padding-top: 25px; ">Klavye</h1></center>
+    <br><br>
+   
+   <div class="ilksıraklavye">
+    <table border="1"cellpading="5"id="markalartablo">
+    <h3 >Markalar</h3>
+    <tr>
+        <td>
+
+    <li >
+        <label>
+            <input type="checkbox" :checked="false">
+            <span>Rampage</span>
+        </label>
+    </li>
+    <li>
+        <label >
+            <input type="checkbox" :checked="false">
+            <span>Asus</span>
+        </label>
+    </li>
+    <li >
+        <label>
+            <input type="checkbox" :checked="false">
+            <span>Gamepower</span>
+        </label>
+    </li>
+    <li>
+        <label >
+            <input type="checkbox" :checked="false">
+            <span>Corsair</span>
+        </label>
+    </li>
+    <li>
+        <label >
+            <input type="checkbox" :checked="false">
+            <span>Msı</span>
+        </label>
+    </li>
+</td></tr>
+</table>
+<img src="klavye/rampage1.png"id="klavye1">
+<p id="ilkklavye">Rampage Plower K60 Mekanik Kablolu Klavye</p>
+<p id="ilkklavyefiyat"><b>1.103,22 TL</b></p>
+<img src="klavye/corsair1.png"id="klavye2">
+<p id="ikinciklavye">Corsair K65 RGB Mini Mekanik Kablolu Klavye</p>
+<p id="ikinciklavyefiyat"><b>2.537,40 TL</b></p>
+<img src="klavye/gamepower1.png"id="klavye3">
+<p id="üçüncüklavye">GamePower Calypso Rainbow Mekanik USB Gaming Klavye </p>
+<p id="üçüncüklavyefiyat"><b>816,38 TL</b></p>
+</div>
+<div class="ikincisıraklavye">
+    <table border="1"cellpading="5"id="klavyebağlantı">
+        <h3>Bağlantı</h3>
+        <tr>
+        <td>
+        <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>kablolu</span>
+            </label>
+         </li>
+         <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>kablosuz</span>
+            </label>
+         </li>
+         </td> </tr>
+    </table>
+    <img src="klavye/msı1.png"id="klavye4">
+    <p id="dortklavye">MSI Vigor GK50 Low Profile TKL </p>
+    <p id="dortklavye2">Mekanik Kablolu Klavye</p>
+    <p id="dortklavyefiyat"><b>1.749,00 TL</b></p>
+    <img src="klavye/asus1.png"id="klavye5">
+    <p id="beşinciklavye">Asus TUF Gaming K3 Mekanik Kablolu Klavye</p>
+    <p id="beşinciklavyefiyat"><b>1.799,00 TL</b></p>
+    <img src="klavye/corsaır2.png"id="klavye6">
+    <p id="altıklavye">Corsair K70 RGB TKL Champion Series <br>Mekanik Kablolu Klavye</p>
+    <p id="altıklavyefiyat"><b>3.200 TL</b></p>
+</div>
+<div id="üçüncüsıraklavye">
+    <table border="1"cellpading="5" id="dilivedizilimi">
+        <h3>Dili ve Dizilimi</h3>
+    <tr><td>
+    <li>
+        <label >
+        <input type="checkbox" :checked="false">
+        <span>Türkçe Q</span>
+            </label>
+     </li>
+    <li>
+     <label >
+     <input type="checkbox" :checked="false">
+        <span>İngilizce Q</span>
+        </label>
+    </li>
+            </td> </tr>
+    </table>
+    <img src="klavye/rampage2.png"id="klavye7">
+    <p id="yediklavye">Rampage Select KB-R206 Mekanik Kablolu Klavye</p>
+    <p id="yediklavyefiyat"><b>531,79 TL</b></p>
+    <img src="klavye/gamepower2.png"id="klavye8">
+    <p id="sekizinciklavye">GamePower Ogre Rainbow Outemu </p>
+    <p id="sekizklavye2">USB Mekanik Klavye</p>
+    <p id="sekizinciklavyefiyat"><b>659,00 TL</b></p>
+    <img src="klavye/msı2.png"id="klavye9">
+    <p id="dokuzuncuklavye">Asus ROG Falchion Cherry MX </p>
+    <p id="dokuzklavye2">Mekanik Kablosuz Klavye</p>
+    <p id="dokuzuncuklavyefiyat"><b>3.449,00 TL</b></p>
+</div>
+<br><br><br><br><br>
+<center><a href="anasayfa.html"><button>Ana Sayfaya Gidiş</button>  </a></center>
+</body>
+</html>

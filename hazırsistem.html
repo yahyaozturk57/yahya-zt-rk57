@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hazır Sistem</title>
+    <style>
+          
+        table{background-color:#9BA4B4;}      
+        #bellek{width:13%;float: left;}   
+        #işlemciler{width: 13%;float: left;}
+        #ekrankartı{width: 13%;}
+        #ilksıra {
+            position: relative;
+        }
+        #sistem1{
+        width: 180px;height: 180px;
+        margin-left: 170px;
+        }
+        #ilksistem{
+        position: absolute; 
+        top: 430px; 
+        left: 350px;
+        color:#323232;
+        }
+        #ilksistem2{
+        position: absolute; 
+        top: 445px; 
+        left: 350px;
+        color:#323232;
+        }
+
+        #ilksistemfiyat{
+        position: absolute; 
+        top: 465px; 
+        left: 420px;
+        color:orange;
+        font-size: 20px;
+        
+        }
+        #sistem2{
+        width: 180px;height: 180px;
+        margin-left: 170px;
+        }
+        #ikincisistem{
+            position: absolute; 
+        top: 430px; 
+        left: 700px;
+        color:#323232;
+        }
+        #ikincisistem2{
+        position: absolute; 
+        top: 445px; 
+        left: 700px;
+        color:#323232;
+        }
+        #ikincisistemfiyat{
+            position: absolute; 
+        top: 460px; 
+        left: 810px;
+        color:orange;
+        font-size: 20px;
+        }
+        #sistem3{
+            width: 180px;height: 180px;
+        margin-left: 220px;
+        }
+        #üçüncüsistem{
+            position: absolute; 
+        top: 430px; 
+        left: 1100px;
+        color:#323232;
+        }
+        #üçüncüsistemfiyat{
+            position: absolute; 
+        top: 460px; 
+        left: 1200px;
+        color:orange;
+        font-size: 20px;
+        }
+        #ikincisıra{
+            position: relative;
+        }
+        #sistem4{
+            width: 180px;height: 180px;
+        margin-left: 190px;
+    
+        }
+        #dortsistem{
+            position: absolute; 
+        top: 710px; 
+        left: 350px;
+        color:#323232;
+        }
+        #dortsistem2{
+        position: absolute; 
+        top: 725px; 
+        left: 350px;
+        color:#323232;
+        }
+        #dortsistemfiyat{
+            position: absolute; 
+        top: 740px; 
+        left: 425px;
+        color:orange;
+        font-size: 20px;
+        }
+        #sistem5{
+            width: 180px;height: 180px;
+        margin-left: 190px;
+        }
+        #beşincisistem{
+            position: absolute; 
+        top: 715px; 
+        left: 700px;
+        color:#323232;
+        }
+        #beşincisistem2{
+            position: absolute; 
+        top: 730px; 
+        left: 700px;
+        color:#323232;
+        }
+        #beşincisistemfiyat{
+            position: absolute; 
+        top: 745px; 
+        left:815px;
+        color:orange;
+        font-size: 20px;
+        }
+        #sistem6{
+            width: 180px;height: 180px;
+        margin-left: 190px;
+        }
+        #altısistem{
+            position: absolute; 
+        top: 710px; 
+        left: 1100px;
+        color:#323232;
+        }
+        #altısistemfiyat{
+            position: absolute; 
+        top: 740px; 
+        left:1170px;
+        color:orange;
+        font-size: 20px;
+        }
+        #üçüncüsıra{
+            position: relative;
+        }
+        #sistem7{
+            width: 180px;height: 180px;
+        margin-left: 380px;
+        }
+        #yedisistem{
+            position: absolute; 
+        top: 325px; 
+        left: 350px;
+        color:#323232;
+        }
+        #yedisistem2{
+            position: absolute; 
+        top: 345px; 
+        left: 350px;
+        color:#323232;
+        }
+        #yedisistemfiyat{
+            position: absolute; 
+        top: 355px; 
+        left:420px;
+        color:orange;
+        font-size: 20px;
+        }
+        #sistem8{
+            width: 180px;height: 180px;
+        margin-left: 200px;
+        }
+        #sekizincisistem{
+            position: absolute; 
+        top: 330px; 
+        left: 730px;
+        color:#323232;
+        }
+        #sekizincisistem2{
+            position: absolute; 
+        top: 350px; 
+        left: 730px;
+        color:#323232;
+        }
+        #sekizincisistemfiyat{
+            position: absolute; 
+        top: 360px; 
+        left:800px;
+        color:orange;
+        font-size: 20px;
+        }
+        #sistem9{
+            width: 180px;height: 180px;
+        margin-left: 200px;
+        }
+        #dokuzuncusistem{
+            position: absolute; 
+        top: 325px; 
+        left: 1090px;
+        color:#323232;
+        }
+        #dokuzuncusistem2{
+            position: absolute; 
+        top: 345px; 
+        left: 1090px;
+        color:#323232;
+        }
+        #dokuzuncufiyat{
+            position: absolute; 
+        top: 355px; 
+        left:1200px;
+        color:orange;
+        font-size: 20px;
+        }
+</style>
+</head>
+<body>
+    <center><h1 style="background-color: black;height:100px;color: antiquewhite;font-size: 40px;padding-top: 25px; ">Hazır Sistemler</h1></center>
+    <br><br>
+   
+    <div class="ilksıra">
+     <table border="1"cellpading="5"id="işlemciler">
+     <h3>İşlemciler</h3>
+     <tr>
+         <td>
+ 
+     <li >
+         <label>
+             <input type="checkbox" :checked="false">
+             <span>Intel Core i9</span>
+         </label>
+     </li>
+     <li>
+         <label >
+             <input type="checkbox" :checked="false">
+             <span>Intel Core i7</span>
+         </label>
+     </li>
+     <li >
+         <label>
+             <input type="checkbox" :checked="false">
+             <span>Intel Core i5</span>
+         </label>
+     </li>
+     <li>
+         <label >
+             <input type="checkbox" :checked="false">
+             <span>AMD Ryzen 9</span>
+         </label>
+     </li>
+     <li>
+         <label >
+             <input type="checkbox" :checked="false">
+             <span>AMD Ryzen 7</span>
+         </label>
+     </li>
+     <li>
+        <label >
+            <input type="checkbox" :checked="false">
+            <span>AMD Ryzen 5</span>
+        </label>
+    </li>
+ </td></tr>
+ </table>
+ <img src="hazırsistem/kasa1.png"id="sistem1">
+ <p id="ilksistem">Simurg | Intel i5-12400F | 2 x 8 GB DDR4 | </p>
+ <p id="ilksistem2">Radeon RX 6750 XT 12 GB | 512 GB SSD </p>
+ <p id="ilksistemfiyat"><b>18.799,00 TL</b></p>
+ <img src="hazırsistem/kasa2.png"id="sistem2">
+ <p id="ikincisistem">PCH S Class 1.1 [PC Hocası] | AMD Ryzen 5 5500 </p>
+ <p id="ikincisistem2">2 x 8 GB DDR4|Radeon RX 6750 XT 12 GB| 480 GB SSD</p>
+ <p id="ikincisistemfiyat"><b>21.599,00 TL</b></p>
+ <img src="hazırsistem/kasa2.png"id="sistem3">
+ <p id="üçüncüsistem">Neron 6600 V2| AMD Ryzen 5 5500| 2 x 8 GB DDR4 |Radeon RX 6600 8 GB |512 GB SSD Oyuncu Bilgisayarı</p>
+ <p id="üçüncüsistemfiyat"><b>11.699,00 TL</b></p>
+ </div>
+ <div class="ikincisıra">
+     <table border="1"cellpading="5"id="bellek">
+         <h3 >Bellek</h3>
+         <tr>
+         <td>
+         <li>
+             <label >
+                 <input type="checkbox" :checked="false">
+                 <span>64GB</span>
+             </label>
+          </li>
+          <li>
+             <label >
+                 <input type="checkbox" :checked="false">
+                 <span>32GB</span>
+             </label>
+          </li> 
+          <li>
+             <label >
+                 <input type="checkbox" :checked="false">
+                 <span>16GB</span>
+             </label>
+          </li>
+          <li>
+             <label >
+                 <input type="checkbox" :checked="false">
+                 <span>8GB</span>
+             </label>
+          </li>
+          </td> </tr>
+     </table><br><br>
+     <img src="hazırsistem/kasa3.png"id="sistem4">
+     <p id="dortsistem">Slate 3060 | Intel i5 11400F | 2 x 8 GB DDR4 |</p>
+     <p id="dortsistem2"> RTX 3060 12 GB | 512 GB SSD</p>
+     <p id="dortsistemfiyat"><b>17.499,00 TL</b></p>
+     <img src="hazırsistem/kasa4.png"id="sistem5">
+     <p id="beşincisistem">Negatron Platinum | Intel i9 12900K | 16 GB DDR4</p>
+     <p id="beşincisistem2">RTX 4080 16 GB | 1 TB SSD </p>
+     <p id="beşincisistemfiyat"><b>70.699,00 TL</b></p>
+     <img src="hazırsistem/kasa1.png"id="sistem6">
+     <p id="altısistem">Daemon [Bafır] | AMD Ryzen 5 5600 | 2 x 8 GB DDR4 | Radeon RX 6750 XT 12 GB | 512 GB SSD </p>
+     <p id="altısistemfiyat"><b>17.999,00 TL</b></p>
+ </div>
+ <div id="üçüncüsıra">
+     <table border="1"cellpading="5" id="ekrankartı">
+         <h3>Ekran Kartı</h3>
+     <tr><td>
+         <li>
+      <label >
+         <input type="checkbox" :checked="false">
+         <span>GeForce RTX 4080</span>
+         </label>
+     </li>
+     <li>
+         <label >
+         <input type="checkbox" :checked="false">
+         <span>GeForce RTX 3600</span>
+             </label>
+      </li>
+     <li>
+      <label >
+      <input type="checkbox" :checked="false">
+         <span>GeForce GTX 1650</span>
+         </label>
+     </li>
+     <li>
+        <label >
+           <input type="checkbox" :checked="false">
+           <span>Radeon RX 6750 XT</span>
+           </label>
+       </li>
+       <li>
+           <label >
+           <input type="checkbox" :checked="false">
+           <span>Radeon RX 6700 XT</span>
+               </label>
+        </li>
+       <li>
+        <label >
+        <input type="checkbox" :checked="false">
+           <span>Radeon RX 5500 XT</span>
+           </label>
+       </li>
+             </td> </tr>
+     </table>
+     <img src="hazırsistem/kasa3.png"id="sistem7">
+     <p id="yedisistem">Slate 6700 XT | Intel i5-12400F | 2 x 8 GB DDR4 |  </p>
+     <p id="yedisistem2">Radeon RX 6750 XT 12 GB | 512 GB SSD</p>
+     <p id="yedisistemfiyat"><b>18.999,00 TL</b></p>
+     <img src="hazırsistem/kasa6.png"id="sistem8">
+     <p id="sekizincisistem">Hydro Bronze V2 | Intel i5 10400 | 8 GB DDR4 </p>
+    <p id="sekizincisistem2"> GTX 1650 4 GB | 480 GB SSD </p>
+     <p id="sekizincisistemfiyat"><b>10.399,00 TLL</b></p>
+     <img src="hazırsistem/kasa7.png"id="sistem9">
+     <p id="dokuzuncusistem">Taurus Silver | Intel i3-12100F | 2 x 8 GB DDR4 </p>
+     <p id="dokuzuncusistem2"> Radeon RX 5500 XT 8 GB | 512 GB SSD</p>
+     <p id="dokuzuncufiyat"><b>11.199,00 TL</b></p>
+ </div>
+ <br><br><br><br><br>     
+ <center><a href="anasayfa.html"><button>Ana Sayfaya Gidiş</button>  </a></center>
+</body>
+</html>

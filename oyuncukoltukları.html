@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oyuncu Koltukları</title>
+    <style>
+          table{background-color:#9BA4B4;}      
+            #markalartablo{width: 13%;float: left;}
+            #ilksıra {
+                position: relative;
+            }
+            #koltuk1{
+            width: 180px;height: 220px;
+            margin-left: 190px;
+            }
+            #ilkkoltuk{
+            position: absolute; 
+            top: 430px; 
+            left: 320px;
+            color:#323232;
+            }
+            #ilkkoltukfiyat{
+                position: absolute; 
+            top: 445px; 
+            left: 440px;
+            color:orange;
+            font-size: 20px;
+            
+            }
+            #koltuk2{
+            width: 180px;height: 220px;
+            margin-left: 190px;
+            }
+            #ikincikoltuk{
+                position: absolute; 
+            top: 430px; 
+            left: 750px;
+            color:#323232;
+            }
+            #ikincikoltukfiyat{
+                position: absolute; 
+            top: 445px; 
+            left: 810px;
+            color:orange;
+            font-size: 20px;
+            }
+            #koltuk3{
+                width: 180px;height: 220px;
+            margin-left: 190px;
+            }
+            #üçüncükoltuk{
+                position: absolute; 
+            top: 430px; 
+            left: 1100px;
+            color:#323232;
+            }
+            #üçüncükoltukfiyat{
+                position: absolute; 
+            top: 445px; 
+            left: 1200px;
+            color:orange;
+            font-size: 20px;
+            }
+            #koltuk4{
+                width: 180px;height: 220px;
+            margin-left: 385px;
+            margin-top: 70px;
+        
+            }
+            #dortkoltuk{
+                position: absolute; 
+            top: 710px; 
+            left: 320px;
+            color:#323232;
+            }
+            #dortkoltukfiyat{
+                position: absolute; 
+            top: 730px; 
+            left: 425px;
+            color:orange;
+            font-size: 20px;
+            }
+            #koltuk5 {
+                width: 180px;height: 220px;
+            margin-left: 190px;
+            margin-top: 70px;
+        
+            }
+            #beşincikoltuk{
+                position: absolute; 
+            top: 710px; 
+            left: 740px;
+            color:#323232;
+            }
+            #beşincikoltukfiyat{
+                position: absolute; 
+            top: 730px; 
+            left: 810px;
+            color:orange;
+            font-size: 20px;
+            }
+            #koltuk6 {
+                width: 180px;height: 220px;
+            margin-left: 190px;
+            margin-top: 70px;
+        
+            }
+            #altıncıkoltuk{
+                position: absolute; 
+            top: 710px; 
+            left: 1120px;
+            color:#323232;
+            }
+            #altıncıkoltukfiyat{
+                position: absolute; 
+            top: 730px; 
+            left: 1200px;
+            color:orange;
+            font-size: 20px;
+            }
+
+    </style>
+</head>
+<body>
+    <center><h1 style="background-color: maroon;height:100px;color: antiquewhite;font-size: 40px;padding-top: 25px; ">Oyuncu Koltukları</h1></center>
+
+    <div class="ilksıra">
+        <table border="1"cellpading="5"id="markalartablo">
+        <h3 >Markalar</h3>
+        <tr>
+            <td>
+    
+        <li >
+            <label>
+                <input type="checkbox" :checked="false">
+                <span>CORSAIR</span>
+            </label>
+        </li>
+        <li>
+            <label >
+                <input type="checkbox" :checked="false">
+                <span>MSI</span>
+            </label>
+        </li>
+        <li >
+            <label>
+                <input type="checkbox" :checked="false">
+                <span>RAMPAGE</span>
+            </label>
+        </li>
+    </td></tr>
+    </table>
+    <img src="oyuncukoltukları/koltuk1.png"id="koltuk1">
+    <p id="ilkkoltuk">Rampage KL-R88 3D Ayarlı Kırmızı/Siyah Koltuğu</p>
+    <p id="ilkkoltukfiyat"><b>2.699,00 TL</b></p>
+    <img src="oyuncukoltukları/koltuk2.png"id="koltuk2">
+    <p id="ikincikoltuk">Rampage KL-R81 Safir Pembe Koltukğu</p>
+    <p id="ikincikoltukfiyat"><b>3.535,65 TL</b></p>
+    <img src="oyuncukoltukları/koltuk3.png"id="koltuk3">
+    <p id="üçüncükoltuk">CORSAIR T1 RACE 2018 Siyah Koltuğu </p>
+    <p id="üçüncükoltukfiyat"><b>7.830,81 TL</b></p>
+    <img src="oyuncukoltukları/koltuk4.png"id="koltuk4">
+    <p id="dortkoltuk">CORSAIR T1 RACE 2018 Siyah/Beyaz Koltuğu </p>
+    <p id="dortkoltukfiyat"><b>7.830,81  TL</b></p>
+    <img src="oyuncukoltukları/koltuk5.png"id="koltuk5">
+    <p id="beşincikoltuk">MSI MAG CH120 I Siyah/Gri Koltuğu</p>
+    <p id="beşincikoltukfiyat"><b>7.830,81 TL</b></p>
+    <img src="oyuncukoltukları/koltuk6.png"id="koltuk6">
+    <p id="altıncıkoltuk">MSI MAG CH120 I Siyah/Gri Koltuğu</p>
+    <p id="altıncıkoltukfiyat"><b>7.830,81 TL</b></p>
+    </div>
+    <br><br><br><br><br><br>
+    <center><a href="anasayfa.html"><button>Ana Sayfaya Gidiş</button>  </a></center>
+</body>
+</html>
